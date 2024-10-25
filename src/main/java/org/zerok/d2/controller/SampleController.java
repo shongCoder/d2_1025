@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SampleController {
 
     @GetMapping("hello")
+
+
     public String[] hello() {
         log.info("hello");
         return new String[] {"hello Shong"};
