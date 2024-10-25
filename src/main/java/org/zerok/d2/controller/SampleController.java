@@ -16,7 +16,7 @@ public class SampleController {
     public String[] hello() {
         log.info("--------------------");
         log.info("hello");
-        return new String[] {"hello Shong"};
+        return new String[] {"hello Shong", "111", "222"};
     }
 
 }
